@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./Header";
 import Body from "./Body";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const MainContainer = () => {
   return (
@@ -9,6 +10,7 @@ const MainContainer = () => {
         <div className=" bg-black w-full h-full">
           <Header />
           <Body />
+          <Footer />
         </div>
       </div>
     </>

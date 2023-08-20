@@ -5,7 +5,7 @@ import EyeIcon from "../assets/img/Eye.svg";
 const Header = () => {
   return (
     <>
-      <div className=" w-full flex justify-between h-[59px] px-[60px]">
+      <div className=" w-full flex justify-between h-[59px] px-[60px] bg-transparent absolute mt-5">
         <img
           className="inline-flex items-center gap-5 w-[30px] flex-shrink-0 cursor-pointer"
           alt="logo"
